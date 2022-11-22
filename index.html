@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="data.php" method="post" enctype="multipart/form-data">
+      <div class="main">
+        <div class="head">
+          <p>Form</p>
+        </div>
+        <p class="field1">
+          <span>Name:</span>
+          <input type="text" name="fname" placeholder="First name" />
+          <input type="text" name="lname" placeholder="Last name" />
+        </p>
+        <p class="field2"><span>Date of Birth:</span><input type="date" name="dob" /></p>
+        <div class="circ">
+          <p class="field3">
+            <span>Gender</span>
+            <input type="radio" name="gender" value="Male" checked/>Male
+            <input type="radio" name="gender" value="Female" />Female
+          </p>
+        </div>
+        <p class="field4">
+          <span>Id Proof:</span>
+          <select name="id-proof">
+            <option value="Aadhar Card">Aadhar Card</option>
+            <option value="License">License</option>
+            <option value="Voter Id">Voter Id</option>
+            <option value="Pan">Pan Card</option>
+          </select>
+        </p>
+        <p class="field5">
+          <span>Upload Proof:</span><input type="file" name="prfile" />
+        </p>
+        <p class="field6">
+          <span>Upload Image:</span><input type="file" name="imgfile" />
+        </p>
+        <input type="submit" name="submit" />
+        <input type="reset" name="reset" />
+      </div>
+    </form>
+  </body>
+</html>

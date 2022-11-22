@@ -1,0 +1,59 @@
+
+.main {
+background-color:#ffffe6;
+  position: absolute;
+  width: auto;
+  padding: 15px;
+  border-radius:10px;
+  border-top:5px ridge ;
+    border-bottom:5px ridge ;
+   box-shadow: 0px 10px 10px rgba(0,0,0,1);
+}
+p {
+  font-family: sans-serif;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  outline: 0;
+  border-width: 0 0 1.5px 0;
+  border-color: silver;
+  margin-left: 6px;
+}
+select {
+  background: none;
+}
+.field1,
+.field2,
+.field3,
+.field4,
+.field5,
+.field6 {
+  margin: 25px 0;
+}
+
+.head {
+  text-align: center;
+}
+
+.field1 span{
+  margin-right: 60px;
+}
+.field2 span{
+  margin-right: 19px;
+}
+.field3 span{
+  margin-right: 10px;
+}
+.field4 span{
+  margin-right: 10px;
+}
+.field5 span{
+  margin-right: 10px;
+}
+.field6 span{
+  margin-right: 10px;
+}
